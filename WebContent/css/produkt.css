@@ -1,0 +1,361 @@
+html, body 
+{
+	height: 100%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+html 
+{
+	display: table;
+	margin: auto;
+	background: #ffffff;
+}
+
+body 
+{
+	vertical-align: middle;
+	width: 879px;
+	padding-top: 20px;
+	font-weight: normal; 
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
+	line-height: 0.85em;
+	color: #000000;
+	background: no-repeat;/*
+	border-left: 1px solid #dadada;
+	border-right: 1px solid #dadada;*/
+}
+
+header
+{
+	font-weight: normal;
+	color: #4b4b4b;  
+}
+
+header div
+{
+	padding-bottom: 1px;
+	margin-bottom: 1px;
+	border-bottom: 1px solid #4b4b4b;
+}
+
+header div.nav
+{
+	padding-left: 80px;
+	font-size: 0.8em;
+	color: #8b8b8b;
+}
+
+header div.nav a
+{
+	margin-bottom: 5px;
+	font-size: 0.8em;
+	color: #8b8b8b;
+	text-decoration: none;
+}
+
+header div.nav a:hover
+{
+	text-decoration: underline;
+}
+
+div.img
+{
+	height: 200px;
+	width: 100%;
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+	padding-bottom: 1px;
+	border-bottom: 1px solid #4b4b4b;
+}
+
+.logo
+{
+	margin: 0px;
+	margin-bottom: 1px;
+	padding: 0px;
+	padding-bottom: 1px;
+	height: 86px;
+	line-height: 5em;
+	font-size: 1.7em;
+	font-style: italic;
+  background: #ffffff url('../img/logo.png') no-repeat left top;
+}
+
+img
+{
+	margin: 0;
+	padding: 0;
+}
+
+#banner
+{
+	height: 100%;
+	width: 100%;
+}
+
+.basic
+{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	text-decoration: none;
+	font-weight: normal;
+	color: #4b4b4b;  
+}
+
+.basic:hover
+{
+	text-decoration: underline;
+}
+
+.menu
+{
+	height: 44px;
+	width: 880px;
+	margin: 0px;
+	margin-top: 1px;
+	border: 0px;
+	padding: 0px;
+	list-style-type: none;
+	background: #ffffff;
+  overflow: visible;
+}
+
+ul
+{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+ul li
+{
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	display: inline-block;
+	position: relative;
+	text-align: left;
+}
+
+ul li a
+{
+	width: 175px;
+	margin: 0px;
+	margin-right: 1px;
+	padding: 0px;
+	display: block;
+	padding-top: 0.9em;
+	padding-bottom: 1em;
+	color: #000000;
+	background: #e7ecef;
+	text-decoration: none;
+	text-align: center;
+}
+
+a#active
+{
+	background: #7486a5;
+}
+
+ul li a:hover, a:active
+{
+	text-decoration: underline;
+	color: #c00000;
+	background: #e7ecef;
+}
+
+ul li ul.dropdown
+{
+	width: 175px;
+	background: #ffffff;
+	display: none;
+	position: absolute;
+	z-index: 999;
+	left: 0;
+}
+
+ul li ul.dropdown a
+{
+	background: #e7ecef;
+	margin-top: 1px;
+	margin-right: 1px;
+	padding-top: 0.9em;
+	padding-bottom: 1em;
+}
+
+ul li ul.dropdown li.last
+{
+	width: 175px;
+	padding-bottom: 1px;
+	border-bottom: 1px solid #4b4b4b;
+}
+
+ul li:hover ul.dropdown
+{
+	display: block;	/* Display the dropdown */
+}
+
+ul li ul.dropdown li
+{
+	display: block;
+}
+
+main
+{
+	padding-left: 80px;
+	padding-right: 80px;
+	/* width: 981-200 = 781px */
+	border-bottom: 1px solid #4b4b4b;
+}
+
+sector
+{
+	border-bottom: 1px solid #4b4b4b;
+}
+
+main a
+{
+	color: #000000;
+	text-decoration: none;
+}
+
+main a:hover, main a:active
+{
+	text-decoration: underline;
+	color: #000000;
+}
+
+.news, .main
+{
+	font-size: 0.8em;
+}
+
+.news
+{
+	padding-top: 25px;
+	padding-bottom: 25px;
+	margin: 0px;
+	color: #000000;
+}
+
+.main
+{
+	padding-top: 25px;
+	padding-bottom: 25px;
+	margin: 0px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #dadada;
+	color: #000000;
+}
+
+td.desc
+{
+	vertical-align: top;
+	font-size: 1em;
+	padding-right: 93px;
+}
+
+td.h
+{
+	margin: 0px;
+	font-weight: normal;
+	width: 200px;
+	border: 0px solid #ff0000;
+}
+
+h2
+{
+	height: 13px;
+	vertical-align: center;
+	font-size: 1.1em;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	font-weight: bold;
+	color: #ffffff;
+	background-color: #a70600;
+}
+
+h3
+{
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+td.img
+{
+	width: 300px;
+	border: 0px solid #ff0000;
+}
+
+td img
+{
+	margin-left: 93px;
+	width: 180px;
+	height: 234px;
+}
+
+footer div
+{
+	margin-top: 25px;
+	margin-bottom: 0px;
+	padding-bottom: 25px;
+	font-size: 0.8em;
+	border-bottom: 1px solid #4b4b4b;
+}
+
+footer table
+{
+	width: 100%;
+	text-align: left;
+}
+
+footer table td, footer table th
+{
+	width: 25%;
+	border: 0px solid #ff0000;
+}
+
+footer a.head
+{
+	text-decoration: none;
+	color: #000000;
+}
+
+footer a.head:hover, a.head:active
+{
+	text-decoration: underline;
+}
+
+footer a.basic
+{
+	font-weight: normal;
+	text-decoration: none;
+	color: #000000;
+}
+
+footer a.basic:hover, a.basic:active
+{
+	font-weight: normal;
+	text-decoration: underline;
+}
+
+#last
+{
+	text-align: center;
+	font-size: 0.7em;
+	color: #4b4b4b;
+	border: 0px;
+	margin: 10px;
+	padding: 0px;
+}
+
+.seperator
+{
+	margin: 0px;
+	border-top: 1px solid #dadada;
+}
+
